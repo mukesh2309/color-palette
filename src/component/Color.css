@@ -1,0 +1,20 @@
+.color-bg {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all;
+}
+.color-bg:hover {
+  transform: scale(0.95);
+}
+.color {
+  cursor: pointer;
+}
+.color h3 {
+  font-size: 1.8rem;
+}
+.color p {
+  font-size: 1.6rem;
+  opacity: 0.6;
+}

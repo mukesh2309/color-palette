@@ -1,0 +1,46 @@
+.info {
+  padding: 2.2rem 0;
+}
+.info-h2 {
+  opacity: 0.5;
+  padding: 2rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+.info-heading {
+  font-size: 5.5rem;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  background: linear-gradient(to right, #868e96, #212529);
+  width: 70%;
+  color: #fff;
+  border-radius: 6px;
+  margin: 2rem auto;
+}
+@media (max-width: 1088px) {
+  html {
+    font-size: 55%;
+  }
+  .info-heading {
+    font-size: 5rem;
+    width: 80%;
+  }
+}
+@media (max-width: 868px) {
+  html {
+    font-size: 50%;
+  }
+  .info-heading {
+    font-size: 4rem;
+    width: 80%;
+  }
+}
+@media (max-width: 668px) {
+  html {
+    font-size: 45%;
+  }
+  .info-heading {
+    font-size: 3rem;
+  }
+}

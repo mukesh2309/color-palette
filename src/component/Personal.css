@@ -1,0 +1,27 @@
+.personal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8rem 0;
+  font-family: "Square Peg", cursive;
+}
+.personal > h2 {
+  font-size: 4rem;
+}
+.personal-links {
+  margin-left: auto;
+  font-size: 3rem;
+}
+.personal-links a {
+  display: inline-block;
+  padding: 0 2rem;
+}
+.fa-github {
+  color: #212529;
+}
+.fa-youtube {
+  color: #c92a2a;
+}
+.fa-linkedin {
+  color: #1864ab;
+}

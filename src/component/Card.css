@@ -1,0 +1,33 @@
+.card {
+  margin-bottom: 4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 20%);
+  padding: 2rem 5rem;
+}
+.card-colors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+}
+
+.card h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .card-colors {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .card-colors {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
