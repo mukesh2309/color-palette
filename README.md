@@ -6,6 +6,8 @@
 
 **_You can see the project below👇_**
 
+[CLICK-TO-SEE](https://color-palette-ms.netlify.app)
+
 ## About
 
 color palette web app based on react js
